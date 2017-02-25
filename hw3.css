@@ -1,0 +1,445 @@
+body {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+input {
+    font-size: 14pt;
+    text-indent: 4%;
+}
+
+p {
+    color: white;
+    font-size: 75%;
+}
+
+hr {
+    width: 335px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.writing {
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.signUp {
+    display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 36px;
+}
+
+.topmargin {
+    padding-top: 8px;
+}
+
+.upperTable {
+    margin-left: 70px;
+    width: 220px;
+}
+
+.myTextBox {
+    height: 38px;
+    width: 36%;
+    margin-left: 65px;
+}
+
+.smallhr {
+    width: 50px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14pt;
+    color: gray;
+}
+
+input::-moz-placeholder {
+    font-size: 14pt;
+    color: gray;
+}
+
+a.footerlink:hover {
+    text-decoration: none;
+}
+
+a.focuslink:focus .contactButton{
+    background-color: white;
+    color: black;
+    
+}
+
+a.focuslink:focus .myButton{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+button.myButton:hover {
+    background-color: black;
+    color: white;
+    transition: linear 200ms;
+}
+
+button.signUpButton:hover {
+    background-color: white;
+    color: #191919;
+     transition: linear 250ms;
+}
+
+button.contactButton:hover {
+    background-color: white;
+    color: black;
+     transition: linear 200ms;
+}
+
+
+
+.number {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    font-size: 60px;
+    margin-left: 114px;
+    margin-top: 2%;
+}
+
+.digit {
+    display: inline-block;
+    text-align: right;
+    color: white;
+    line-height: 80px;
+    font-size: 120px;
+    margin-top: 6%;
+}
+
+.intouch {
+    font-size: 50%;
+    margin: auto;
+}
+
+#topDiv {
+    width: 428px;
+    height: 250px;
+    background: black;
+    margin: auto;
+}
+
+#divText {
+    color: white;
+    text-align: center;
+}
+
+.myText {
+    color: white;
+}
+
+.line {
+    margin: 5%;
+}
+
+.middleText {
+    margin-top: -150px;
+    text-align: center;
+}
+
+.midText {
+    color: #907C3D;
+    margin-top: -23.5%;
+}
+
+.promoline {
+    text-align: center;
+    width: 620px;
+    font-size: 13;
+    margin: auto;
+}
+
+#parentDiv {
+    background: #191919;
+    width: 100%;
+    margin-top: 6%;
+}
+
+.bottomText {
+    color: white;
+}
+
+.leftspan {
+    display: inline-block;
+    border-right: 0.5px solid #3b3b3b;
+    border-bottom: 0.5px solid #3b3b3b;
+    width: 35%;
+    height: 200px;
+    float: left;
+}
+
+.rightspan {
+    width: 63%;
+    display: inline-block;
+    border-bottom: 0.5px solid #3b3b3b;
+    height: 200px;
+}
+
+#childDiv1 {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-right: 5px;
+}
+
+.childDiv2 {
+    display: inline;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+#LowerDiv {
+    width: 100%;
+}
+
+.middletext {
+    float: right;
+    margin-right: 20px;
+}
+
+.smallHr {
+    width: 50px;
+    height: 5px;
+    display: block;
+    background-color: white;
+}
+
+.readarticle {
+    margin-left: 99px;
+    margin-top: 95px;
+}
+
+.newsletter {
+    margin-top: 58px;
+    margin-left: 65px;
+    color: #907C3D;
+}
+
+.headerText {
+    color: #907C3D;
+}
+
+.temp {
+    height: 20px;
+    width: 100%;
+}
+
+.bottomTable {
+    width: 1094px;
+    height: 246px;
+}
+
+.headquarter {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.offices {
+    display: inline-block;
+    margin-left: 21%;
+}
+
+.footerleftMargin {
+    display: inline-block;
+}
+
+.footerleftMarginNY {
+    margin-left: 280px;
+    display: inline-block;
+}
+
+.footerleftMarginLondon {
+    margin-left: 85px;
+    display: inline-block;
+}
+
+.footerleftMarginManchester {
+    margin-left: 93px;
+    display: inline-block;
+}
+
+.address {
+    width: 17%;
+    display: inline-block;
+    margin-left: 0.3%;
+}
+
+.myButton {
+    margin: auto;
+    height: 50px;
+    width: 250px;
+    background: white;
+    border-color: black;
+    letter-spacing: 4px;
+    border-style: solid;
+}
+
+.contactButton {
+    background: #191919;
+    color: white;
+    letter-spacing: 4px;
+    width: 150px;
+    height: 33px;
+    border-color: white;
+    border-style: solid;
+}
+
+.buttomDiv {
+    height: 20px;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.footerDiv {
+    background: #191919;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.signUpButton {
+    margin: auto;
+    height: 51px;
+    width: 200px;
+    background: #191919;
+    border-color: white;
+    letter-spacing: 4px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+}
+
+.locationSpan {
+    display: inline-block;
+    width: 17%;
+}
+
+#Locations {
+    margin-left: 5%;
+    letter-spacing: 4px
+}
+
+#contactbuttondiv {
+    display: inline-block;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.myTE {
+    color: #907C3D;
+    display: inline-block;
+    font-size: 80%;
+}
+
+.inlineClass {
+    display: inline-block;
+}
+
+#footercontainer {
+    background: #191919;
+    width: 100%;
+}
+
+.bottomspan {
+    width: 15%;
+    margin-left: 4%;
+}
+
+.myLine {
+    line-height: 45%;
+    font-weight: lighter;
+}
+
+#contactButton {
+    float: left;
+}
+
+.footerText {
+    color: white;
+    font-size: 80%;
+}
+
+#rightsideFooter {
+    display: inline-block;
+    width: 70%;
+}
+
+.footerlink {
+    color: white;
+    text-decoration: underline;
+}
+
+
+a.articlelink:focus {
+    outline: white dotted 1px;    
+}
+
+button.myButton:focus {
+   background-color: black;
+   color: white;  
+}
+
+
+
+.anchor {
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.mylineHeight {
+    line-height: 280px;
+}
+
+
+
+
+
+.locationfavlink:hover {
+    text-decoration: none;
+    
+}
